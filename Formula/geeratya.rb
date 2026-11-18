@@ -3,24 +3,24 @@ class Geeratya < Formula
   desc "Keyboard-first terminal client for Jira Cloud"
   homepage "https://github.com/Aleksanderis/Geeratya"
   license "MIT"
-  version "0.6.1"
+  version "0.6.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/Aleksanderis/Geeratya/releases/download/v0.6.1/geeratya-0.6.1-osx-arm64.tar.gz"
-      sha256 "ea30b5a1c1ddf9add3135adf4a65e26fe509ab5410aaa50ac2a7782f5c3f7ec0"
+      url "https://github.com/Aleksanderis/Geeratya/releases/download/v0.6.2/geeratya-0.6.2-osx-arm64.tar.gz"
+      sha256 "6ae5214348da1e24acbdf2eda94c6a49544995d538896bfeb221169c2f4eb459"
     end
   end
 
   on_linux do
     depends_on "openssl@3"
     on_intel do
-      url "https://github.com/Aleksanderis/Geeratya/releases/download/v0.6.1/geeratya-0.6.1-linux-x64.tar.gz"
-      sha256 "4cf16b3f218a9334819c60a0e55f5d8e0b1c2f8263a732368c84398281ea9542"
+      url "https://github.com/Aleksanderis/Geeratya/releases/download/v0.6.2/geeratya-0.6.2-linux-x64.tar.gz"
+      sha256 "f12fba34e10e220db66cebe0efd59e876337fe216eedcf6d0098305362a14e6c"
     end
     on_arm do
-      url "https://github.com/Aleksanderis/Geeratya/releases/download/v0.6.1/geeratya-0.6.1-linux-arm64.tar.gz"
-      sha256 "d0f5f6b61d3a05f58ea445c5b43992d04aa0054a386f84ece54f641907c02190"
+      url "https://github.com/Aleksanderis/Geeratya/releases/download/v0.6.2/geeratya-0.6.2-linux-arm64.tar.gz"
+      sha256 "1fb31c82f9574b2c9268b30566df8ded79f128c5713dc75a56486f1c393c0665"
     end
   end
 
