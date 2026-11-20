@@ -8,19 +8,19 @@ class Gitunia < Formula
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/Aleksanderis/Gitunia/releases/download/v0.12.0/gitunia-0.12.0-osx-arm64.tar.gz"
-      sha256 "674487208e075caaee85a7f21938b2dc1fea6d896aba30b9e87f31b1a4cedb63"
+      url "https://github.com/Aleksanderis/Gitunia/releases/download/v0.12.1/gitunia-0.12.1-osx-arm64.tar.gz"
+      sha256 "1c9832d22e5c0dd12b3090883b0632056c5b4855299300a2b75ec115d3073ea2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Aleksanderis/Gitunia/releases/download/v0.12.0/gitunia-0.12.0-linux-x64.tar.gz"
-      sha256 "bffb2fbf4aa8274cb63139ecf06dd4d13bf2dfecc0a2510f18d4fbee7563b7cb"
+      url "https://github.com/Aleksanderis/Gitunia/releases/download/v0.12.1/gitunia-0.12.1-linux-x64.tar.gz"
+      sha256 "bc50751704ad4ef26145b7191746be387df57bc9160a39515f2acb431120f237"
     end
     on_arm do
-      url "https://github.com/Aleksanderis/Gitunia/releases/download/v0.12.0/gitunia-0.12.0-linux-arm64.tar.gz"
-      sha256 "140f59ecbf012dfede8e9c7b187f012704b7df7b0791b0a1237b320d5662275e"
+      url "https://github.com/Aleksanderis/Gitunia/releases/download/v0.12.1/gitunia-0.12.1-linux-arm64.tar.gz"
+      sha256 "2ab2807b23f5e2d955ea26ee9d4eb45b0b6a709786622f8acbd331f9c09f3df5"
     end
   end
 
